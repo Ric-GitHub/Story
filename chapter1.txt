@@ -3,8 +3,13 @@ It was the best of times; it was the worse of times.
 
 Git commands:
 
+Git init #to initialize git in the current folder.
+
 Git add .
 #add all files in current folder to the staging area.
+
+git rm --cached -r .
+#remove everything from the staging area.
 
 Git status
 #check status
@@ -15,3 +20,7 @@ Git diff {filename} #to see differences between commits
 
 Git checkout {file name} #will restore last commit of file when pressing Enter.
 
+Ls -a #to show hidden files
+
+.gitignore #to create a list of files to ignore and not push 
+# in this file, list all files to be ignored. * (asterisk) with extension will ignore all such files.
