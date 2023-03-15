@@ -24,3 +24,24 @@ Ls -a #to show hidden files
 
 .gitignore #to create a list of files to ignore and not push 
 # in this file, list all files to be ignored. * (asterisk) with extension will ignore all such files.
+
+
+####branching
+
+Git branch {name of branch}
+#to create a branch of the current items in folder
+
+Git branch # to see the branches
+
+Git checkout {name of branch}. #to switch to new branch.
+
+Git add {file name}   #to add to staging area
+Git commit -m "notes".  #to commit to new branch.
+
+
+#go back to master branch to start merge branch to master
+Git merge {branch name}  #this will open vim, the text editor to add comments
+
+:q!  #to get out of vim.
+
+
