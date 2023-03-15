@@ -1,1 +1,17 @@
 It was the best of times; it was the worse of times.
+
+
+Git commands:
+
+Git add .
+#add all files in current folder to the staging area.
+
+Git status
+#check status
+
+Git log. #to see commits
+
+Git diff {filename} #to see differences between commits
+
+Git checkout {file name} #will restore last commit of file when pressing Enter.
+
